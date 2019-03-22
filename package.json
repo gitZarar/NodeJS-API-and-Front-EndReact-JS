@@ -1,0 +1,22 @@
+{
+  "name": "zohoapi",
+  "version": "1.0.0",
+  "description": "Starter kit for creating React and Express apps",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Zarar",
+  "license": "",
+  "devDependencies": {
+    "nodemon": "^1.14.6"
+  },
+  "dependencies": {
+    "concurrently": "^3.5.1",
+    "express": "^4.16.2",
+    "superagent": "^4.1.0"
+  }
+}
